@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 // import products from '../Products';
 import Product from '../components/Product';
-//import axios from 'axios';
+import axios from 'axios';
 import { useGetProductsQuery } from '../slices/productSlice';
 import Loader from '../components/Loader';
 import Message from '../components/Message';
